@@ -14,15 +14,7 @@ Overview
 
 In this exercise you will extend the MySQL Blueprint created previously into a basic LAMP Stack (Linux Apache MySQL PHP) deployment with a scalable web tier as shown below.
 
-.. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab2/image1.png
-
-Getting Engaged with the Product Team
-=====================================
-- **Slack** - #calm
-- **Product Manager** - Jasnoor Gill, jasnoor.gill@nutanix.com
-- **Product Marketing Manager** - Chris Brown, christopher.brown@nutanix.com
-- **Technical Marketing Engineer** - Brian Suhr, brian.suhr@nutanix.com
-- **Field Specialists** - Mark Lavi, mark.lavi@nutanix.com; Andy Schmid, andy.schmid@nutanix.com
+.. figure:: images/lamp1.png
 
 Creating the Web Server
 ***********************
@@ -108,7 +100,7 @@ Click **Save**.
 
 In **Application Overview > Actions**, select **Create** to see the flow of execution after the dependency is added.
 
-.. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab2/image11.png
+.. figure:: images/lamp2.png
 
 Adding Replicas
 ===============

@@ -14,35 +14,27 @@ Overview
 
 In this exercise you will learn how to manage Calm Blueprints within the Nutanix Marketplace. As part of the exercise you will publish a Blueprint from the Blueprint Editor, use Marketplace Manager to approve, assign roles and projects, and publish to the Marketplace. Finally you will edit a project environment so your Blueprint can be launched directly from the Marketplace.
 
-Getting Engaged with the Product Team
-=====================================
-- **Slack** - #calm
-- **Product Manager** - Jasnoor Gill, jasnoor.gill@nutanix.com
-- **Product Marketing Manager** - Chris Brown, christopher.brown@nutanix.com
-- **Technical Marketing Engineer** - Brian Suhr, brian.suhr@nutanix.com
-- **Field Specialists** - Mark Lavi, mark.lavi@nutanix.com; Andy Schmid, andy.schmid@nutanix.com
-
 Publishing Blueprints
 *********************
 
-From **Prism Central > Apps**, select |image1| **Blueprints** from the sidebar.
+From **Prism Central > Apps**, select |bp-icon| **Blueprints** from the sidebar.
 
 Open any **Active** Blueprint by clicking on its **Name**.
 
-.. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab8/image17.png
+.. figure:: images/marketplace_p2_1.png
 
 Click **Publish**.
 
-.. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab8/image15.png
+.. figure:: images/marketplace_p2_2.png
 
 Provide a **Name** (e.g. Blueprint Name *<INITIALS>*) and **Description**, and click **Publish**.
 
-.. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab8/image18.png
+.. figure:: images/marketplace_p2_3.png
 
 Approving Blueprints
 ********************
 
-From **Prism Central > Apps**, select |image4| **Marketplace Manager** from the sidebar.
+From **Prism Central > Apps**, select |mktmgr-icon| **Marketplace Manager** from the sidebar.
 
 .. note:: You must be logged in as a Cluster Admin user to access the Marketplace Manager.
 
@@ -50,11 +42,11 @@ Note your Blueprint does not appear in the list of **Marketplace Items**.
 
 Select the **Approval Pending** tab.
 
-.. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab8/image19.png
+.. figure:: images/marketplace_p2_4.png
 
 Select your **Pending** Blueprint.
 
-.. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab8/image20.png
+.. figure:: images/marketplace_p2_5.png
 
 Review the available actions:
 
@@ -66,28 +58,28 @@ Click **Approve**.
 
 Once the application has been successfully approved, assign the appropriate **Category** and **Project Shared With**. Click **Apply**.
 
-.. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab8/image21.png
+.. figure:: images/marketplace_p2_6.png
 
 Select the **Marketplace Blueprints** tab and select your Blueprint. Click **Publish**.
 
 Verify the Blueprint's **Status** is now shown as **Published**.
 
-.. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab8/image23.png
+.. figure:: images/marketplace_p2_7.png
 
-From **Prism Central > Apps**, select |image6| **Marketplace** from the sidebar. Verify your Blueprint is available for launching as an application.
+From **Prism Central > Apps**, select |mkt-icon| **Marketplace** from the sidebar. Verify your Blueprint is available for launching as an application.
 
-.. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab8/image24.png
+.. figure:: images/marketplace_p2_8.png
 
 Configuring Project Environment
 *******************************
 
 To launch a Blueprint directly from the Marketplace, we need to ensure our Project has all of the requisite environment details to satisfy the Blueprint.
 
-From **Prism Central > Apps**, select |image13| **Projects** from the sidebar.
+From **Prism Central > Apps**, select |proj-icon| **Projects** from the sidebar.
 
 Select the Project **Name** associated with your Blueprint at the time of publishing (e.g. the **Calm** Project that was assigned as **Project Shared With**).
 
-.. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab8/image26.png
+.. figure:: images/marketplace_p2_9.png
 
 Select the **Environment** tab.
 
@@ -101,24 +93,24 @@ Under **Connection > Credential**, select **Add New Credential**. Fill out the f
 - **Password** - nutanix/4u
 - Select **Use as default**
 
-.. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab8/image27b.png
+.. figure:: images/marketplace_p2_10.png
 
 Click **Save**.
 
 Launching Blueprint from the Marketplace
 ****************************************
 
-From **Prism Central > Apps**, select |image6| **Marketplace** from the sidebar.
+From **Prism Central > Apps**, select |mkt-icon| **Marketplace** from the sidebar.
 
-.. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab8/image24.png
+.. figure:: images/marketplace_p2_11.png
 
 Select the Blueprint published as part of this exercise and click **Launch**.
 
-.. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab8/image28.png
+.. figure:: images/marketplace_p2_12.png
 
 Select the **Calm** Project and click **Launch**.
 
-.. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab8/image29.png
+.. figure:: images/marketplace_p2_13.png
 
 Specify a unique **Application Name** (e.g. Marketplace*<INITIALS>*) and click **Create**.
 
@@ -126,11 +118,11 @@ Specify a unique **Application Name** (e.g. Marketplace*<INITIALS>*) and click *
 
   To see the configured **Environment** details, expand the **VM Configurations** entities.
 
-.. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab8/image30.png
+.. figure:: images/marketplace_p2_14.png
 
 Monitor the provisioning of the Blueprint until complete.
 
-.. figure:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab8/image31.png
+.. figure:: images/marketplace_p2_15.png
 
 Takeaways
 *********
@@ -138,7 +130,7 @@ Takeaways
 - Blueprints can be launched directly from the Marketplace with no additional configuration from users, delivering a public cloud-like SaaS experience for end users.
 - Administrators have control over what Blueprints are published to the Marketplace and which projects have access to published Blueprints.
 
-.. |image1| image:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab8/image14.png
-.. |image4| image:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab4/image4.png
-.. |image6| image:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab8/image10.png
-.. |image13| image:: https://s3.amazonaws.com/s3.nutanixworkshops.com/calm/lab8/image25.png
+.. |bp-icon| image:: ../images/blueprints_icon.png
+.. |mktmgr-icon| image:: ../images/marketplacemanager_icon.png
+.. |mkt-icon| image:: ../images/marketplace_icon.png
+.. |proj-icon| image:: ../images/projects_icon.png
