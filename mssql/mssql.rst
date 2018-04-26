@@ -143,7 +143,7 @@ Fill out the following fields:
   - **NIC** - Secondary
 - **Connection**
 
-  - **Crendential** - WINDOWS
+  - **Credential** - WINDOWS
   - **Address** - @@{platform.status.resources.nic_list[0].ip_endpoint_list[0].ip}@@
   - **Connection Type** - Windows (PowerShell)
   - **Connection Port** - 5985

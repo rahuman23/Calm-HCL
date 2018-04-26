@@ -96,7 +96,7 @@ Fill out the following fields:
 - **Memory (GiB)** - 4
 - Select :fa:`plus-circle` under **Network Adapters (NICs)**
 - **NIC** - Secondary
-- **Crendential** - CENTOS
+- **Credential** - CENTOS
 
 .. note::
 

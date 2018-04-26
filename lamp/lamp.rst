@@ -41,7 +41,7 @@ Fill out the following fields:
 - **Memory (GiB)** - 4
 - Select :fa:`plus-circle` under **Network Adapters (NICs)**
 - **NIC** - Secondary
-- **Crendential** - CENTOS
+- **Credential** - CENTOS
 
 Scroll to the top of the **Configuration Panel**, click **Package**.
 
@@ -136,7 +136,7 @@ Select **Service1** and fill out the following fields in the **Configuration Pan
 - **Memory (GiB)** - 4
 - Select :fa:`plus-circle` under **Network Adapters (NICs)**
 - **NIC** - Secondary
-- **Crendential** - CENTOS
+- **Credential** - CENTOS
 
 Scroll to the top of the **Configuration Panel**, click **Package**.
 
